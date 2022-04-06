@@ -29,7 +29,7 @@ namespace Sort.Presenter
             if (x == 'С' && y == 'К')
                 return -1;
 
-            return x < y ? 1 : 0;
+            return x < y ? -1 : 0;
         }
 
         public char[] SetArray()
